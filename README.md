@@ -1,13 +1,15 @@
 
 # Projeto em desenvolvimento:
 
-### NBA API 
-Main:
-[] Jogadores
-[] Times
-Secondary:
-[] Season
-[]
+### NBA API e ML 🏀
+Main: <br/>
+✅ Jogadores <br/>
+🟩 Times <br/>
+Secondary: <br/>
+🟩 Temporada <br/>
+🟩 Checkout <br/>
+
+<br/>
 
 ![site api nba](https://user-images.githubusercontent.com/65719821/158680772-d58cc50c-ddb7-4952-8325-7bd06eed1c8b.png)
 
