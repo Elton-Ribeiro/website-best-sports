@@ -13,7 +13,6 @@ import { HeaderComponent } from './components/header/header.component';
 import { TimesComponent } from './components/times/times.component';
 import { JogadoresComponent } from './components/jogadores/jogadores.component';
 
-
 @NgModule({
   declarations: [
     AppComponent,
@@ -34,4 +33,5 @@ import { JogadoresComponent } from './components/jogadores/jogadores.component';
   providers: [],
   bootstrap: [AppComponent]
 })
+
 export class AppModule { }
