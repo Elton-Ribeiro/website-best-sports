@@ -7,7 +7,7 @@ export const environment = {
   urlViaCEP: 'https://viacep.com.br/ws/',
   urlBallDontLie: 'https://www.balldontlie.io/api/v1/',
   apiUrl: 'https://api.openweathermap.org/data/2.5/',
-  apiKey: 'c87fa7e8d6b77d1e12e4112f6c0a9351'
+  apiKey: ''
 };
 
 /*
