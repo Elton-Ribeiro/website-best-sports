@@ -12,6 +12,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { HeaderComponent } from './components/header/header.component';
 import { TimesComponent } from './components/times/times.component';
 import { JogadoresComponent } from './components/jogadores/jogadores.component';
+import { WeatherComponent } from './components/weather/weather.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +23,7 @@ import { JogadoresComponent } from './components/jogadores/jogadores.component';
     HeaderComponent,
     TimesComponent,
     JogadoresComponent,
+    WeatherComponent,
   ],
   imports: [
     BrowserModule,
