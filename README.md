@@ -1,8 +1,9 @@
 
 # Projeto em desenvolvimento:
 
-### NBA API e ML 🏀
+### NBA API / CHECKOUT / WEATHER  🏀
 Main: <br/>
+🟩 Rotear links <br/>
 ✅ Jogadores <br/>
 🟩 Times <br/>
 Secondary: <br/>
