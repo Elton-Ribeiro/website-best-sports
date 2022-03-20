@@ -22,6 +22,7 @@ export class WeatherComponent implements OnInit {
 }
 
 
+// >>>>>>>>>>> subscribe
 // When Angular needs to create a new instance of the repository, it will inspect the class and see that it
 // needs a StaticDataSource object to invoke the ProductRepository constructor and create a new object.
 // The repository constructor calls the data source’s getProducts method and then uses the subscribe

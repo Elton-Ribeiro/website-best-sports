@@ -13,7 +13,7 @@ export class WeatherService {
 
   getWeather(city: string): Observable<Weather> { //O método getWeather não retorna os dados de clima, o 'observable' o faz.
     const options = new HttpParams()
-      .set('units', 'metric') //set - standard, metric, and imperial .
+      .set('units', 'metric') //units - standard, metric, and imperial .
       .set('q', city)
       .set('appId', environment.apiKey);
 

@@ -13,6 +13,10 @@ import { HeaderComponent } from './components/header/header.component';
 import { TimesComponent } from './components/times/times.component';
 import { JogadoresComponent } from './components/jogadores/jogadores.component';
 import { WeatherComponent } from './components/weather/weather.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatCardModule } from '@angular/material/card';
+import { MatIconModule } from '@angular/material/icon';
+import { MatInputModule } from '@angular/material/input';
 
 @NgModule({
   declarations: [
@@ -30,7 +34,11 @@ import { WeatherComponent } from './components/weather/weather.component';
     AppRoutingModule,
     NgbModule,
     FormsModule,
-    HttpClientModule
+    HttpClientModule,
+    BrowserAnimationsModule,
+    MatIconModule,
+    MatInputModule,
+    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]
