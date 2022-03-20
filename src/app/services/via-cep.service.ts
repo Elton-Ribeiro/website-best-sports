@@ -14,5 +14,5 @@ export class ViaCepService {
     const urlGet = `${environment.urlViaCEP}${cep}/json/`;
     return this.http.get<ViaCEP>(urlGet);
   }
-
+  
 }

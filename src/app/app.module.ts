@@ -17,6 +17,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatCardModule } from '@angular/material/card';
 import { MatIconModule } from '@angular/material/icon';
 import { MatInputModule } from '@angular/material/input';
+import { MatTableModule } from '@angular/material/table'; 
 
 @NgModule({
   declarations: [
@@ -38,7 +39,8 @@ import { MatInputModule } from '@angular/material/input';
     BrowserAnimationsModule,
     MatIconModule,
     MatInputModule,
-    MatCardModule
+    MatCardModule,
+    MatTableModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

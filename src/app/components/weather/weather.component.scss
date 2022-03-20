@@ -12,8 +12,9 @@
     cursor: pointer;
     }
     mat-card {
-    margin-top: 30px;    
-    width: 250px;
+    margin-top: 30px;
+    margin-bottom: 80px; //não encontrei outra forma de separar do footer
+    width: 300px;    
     }
     h1 {
     text-align: center;
