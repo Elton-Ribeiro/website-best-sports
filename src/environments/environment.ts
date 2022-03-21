@@ -8,7 +8,7 @@ export const environment = {
   urlBallDontLie: 'https://www.balldontlie.io/api/v1/',
   apiUrl: 'https://api.openweathermap.org/data/2.5/',
   apiKey: ''
-
+}
 /*
  * For easier debugging in development mode, you can import the following file
  * to ignore zone related error stack frames such as `zone.run`, `zoneDelegate.invokeTask`.

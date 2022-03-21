@@ -13,7 +13,16 @@ export class TeamsService {
   constructor(private http: HttpClient) { }
 
   getTeams(): Observable<Teams> {
+    
+    const times = fetch(`${environment.urlBallDontLie}/teams/`)
+    //teste
+    .then((resposta) => resposta.json())
+    .then((json) => {
+      let teamData = json.data;
+      console.log('teamData', teamData);
+    });
+
     return this.http.get<Teams>(`${environment.urlBallDontLie}/teams/`);
   }
- 
+    
 }

@@ -17,11 +17,11 @@ export class TimesComponent implements OnInit {
   constructor(private teamsService: TeamsService) { }
 
   ngOnInit(): void {
-  }
-
-  search(data: string) {
     this.teams$ = this.teamsService.getTeams();
   }
+
+
+  
 }
 // export class TimesComponent implements OnInit {
 
